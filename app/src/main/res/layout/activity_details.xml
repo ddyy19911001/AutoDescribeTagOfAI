@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <include
+                    android:id="@+id/ll_stauts"
+                    layout="@layout/default_status_bar"/>
+                <include
+                    android:id="@+id/ll_title_bar"
+                    layout="@layout/default_title_bar"/>
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/et_promt"
+                android:textColor="@color/white"
+                android:textColorHint="#989898"
+                android:textSize="14sp"
+                android:gravity="top|left"
+                android:padding="15dp"
+                android:scrollbars="vertical"
+                android:hint="点击生成描述词"
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/input_promt"
+                />
+
+            <TextView
+                android:id="@+id/tv_copy"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/click_bg"
+                android:layout_marginHorizontal="20dp"
+                android:textColor="@color/white"
+                android:text="复制描述"
+                android:gravity="center"
+                android:layout_marginBottom="15dp"
+                />
+
+
+            <EditText
+                android:id="@+id/et_fan"
+                android:textColor="@color/white"
+                android:textColorHint="#989898"
+                android:textSize="14sp"
+                android:gravity="top|left"
+                android:padding="15dp"
+                android:scrollbars="vertical"
+                android:hint="对应翻译"
+                android:layout_marginBottom="50dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/input_promt"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</layout>

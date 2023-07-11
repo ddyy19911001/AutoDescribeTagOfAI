@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--正面面描述、必选-->
+    <array name="quality_Z">
+        <item>(8k,RAW photo,best quality,highres,masterpiece:1.2),absurdres,detailed face,1girl,</item>
+    </array>
+
+    <!--角色-->
+    <array name="jue_se">
+        <item>loli</item>
+        <item>bishoujo</item><!--美少女-->
+        <item>gyaru</item><!--辣妹-->
+        <item>ojousama</item><!--大小姐-->
+        <item>bride</item><!--新娘-->
+        <item>bunny girl</item><!--兔女孩-->
+        <item>cat girl</item><!--猫女孩-->
+        <item>boxer</item><!--拳击手-->
+        <item>scientist</item><!--科学家-->
+        <item>athletes</item><!--运动员-->
+        <item>office lady</item><!--职场女性-->
+        <item>crobat</item><!--杂技演员-->
+        <item>nun</item><!--修女-->
+        <item>nurse</item><!--护士-->
+        <item>stewardess</item><!--空姐-->
+        <item>student</item><!--学生-->
+        <item>waitress</item><!--女服务员-->
+        <item>teacher</item><!--老师-->
+        <item>racer</item><!--赛车手-->
+        <item>police</item><!--警察-->
+        <item>cheerleader</item><!--啦啦队-->
+        <item>actress</item><!--女演员-->
+        <item>agent</item><!--特工-->
+        <item>assassin</item><!--刺客-->
+        <item>samurai</item><!--日本武士-->
+        <item>dancing girl</item><!--舞女-->
+        <item>maid</item><!--女仆-->
+        <item>barista</item><!--咖啡师-->
+        <item>magical_girl</item><!--魔法少女-->
+    </array>
+
+    <!--眼睛皮肤描写-->
+    <array name="girls_face">
+        <item>closed mouth</item><!--闭嘴-->
+        <item>gradient_eyes</item><!--水江汪大眼-->
+        <item>half-cosed eyes</item><!--半闭眼睛-->
+        <item>one eye closed</item><!--闭上一只眼-->
+        <item>wide eyes</item><!--睁大眼睛-->
+        <item>empty eyes</item><!--空洞眼睛-->
+        <item>exquisite facial features</item><!--精致的五官-->
+        <item>prefect face</item><!--完美的脸-->
+        <item>shiny skin</item><!--发光的皮肤-->
+    </array>
+
+
+    <!--脸部表情-->
+    <array name="face_emotion">
+        <item>blush</item><!--脸红-->
+        <item>smug</item><!--得意-->
+        <item>nose blush</item><!--害羞-->
+        <item>naughty face</item><!--调皮-->
+        <item>light smile</item><!--微笑-->
+        <item>smirk</item><!--嘴角上扬-->
+        <item>grin</item><!--露齿笑-->
+        <item>laughing</item><!--大笑-->
+    </array>
+
+    <!--发色发型-->
+    <!--
+    短发 short hair长发 long hair头发过肩 hair over shoulder中发 medium hair
+颜色
+银发 silver hair灰发 grey hair黑发 black hair蓝发 blue hair棕发 brown hair紫发 purple hair红发 red hair绿发 green hair橙发 orange hair挑 streaked hair彩发 multicolored hair彩虹发 rainbow-like hair
+白发 white hair
+金发 blonde hair
+粉发 pink hair
+刘海
+刘海 bangs交叉刘海 crossed bang眉间刘海 hair between eye齐刘海 blunt bangs斜刘海 diagonal bangs不对称刘海 asymmetrical bangs编织刘海 braided bangs
+辫了
+短马尾 short ponytail侧马尾辫 side ponytail前马尾辫 front ponytail分裂马尾辫 split ponytail低马尾辩 low twintails短马尾辫 short twintails侧边辫子 side braid辫子 braid双辫子 twin braids马尾辫 ponytail编织马尾 braided ponytail法辫 french braid麻花辫 twists高马尾 high ponytail发型
+扎头发 tied hair单侧发 single side bun卷发 curly hair直发 straight hair波浪头 wavy hair波波头 bob hair侧分 slicked-back雷鬼头 Reggae hair蓬巴杜发型 pompadour莫西干头 Mohawk锅盖头 bowl cut呆毛ahoge天线呆毛 antenna hair心形呆毛 heart ahoge公主卷 drill hair翼状发 hair wings蓬发 disheveled hair凌乱发 messy hair露颈盘发 chignon编织发 braided bun公主切 hime cut妹妹切 bob cut刺猬头 spiked hair盘发 updo长发 dreadlocks爆炸头 afro秃头bald双丸子头 double bun美式寸头 buzz cut闪亮的头发 shiny hair精灵短发 pixie cut大体积蓬松头发 big hair发光的头发 glowing hair眼睛间的头发 hair between eyes擦到耳后 hair behind ear
+    -->
+    <array name="hair_type">
+        <item>long hair</item><!--长发-->
+        <item>short hair</item><!--短发-->
+        <item>hair over shoulder</item>
+        <item>edium hair</item>
+        <item>silver hair</item>
+        <item>grey hair</item>
+        <item>black hair</item>
+        <item>brown hair</item>
+        <item>streaked hair</item>
+        <item>white hair</item>
+        <item>multicolored hair</item>
+    </array>
+
+    <!--刘海-->
+    <array name="liu_hai">
+        <item>bangs</item>
+        <item>crossed bang</item>
+        <item>hair between eye</item>
+        <item>blunt bangs</item>
+        <item>diagonal bangs</item>
+        <item>asymmetrical bangs</item>
+        <item>braided bangs</item>
+    </array>
+
+    <!--马尾类型-->
+    <array name="ma_wei">
+        <item>ponytail</item>
+        <item>short ponytail</item>
+        <item>side ponytail</item>
+        <item>front ponytail</item>
+        <item>split ponytail</item>
+        <item>low twintails</item>
+        <item>short twintails</item>
+        <item>side braid</item>
+        <item>braid</item>
+        <item>twin braids</item>
+        <item>braided ponytail</item>
+        <item>french braid</item>
+        <item>twists</item>
+        <item>high ponytail</item>
+    </array>
+
+    <!--发型样式-->
+    <array name="faxin">
+        <item>tied hair</item>
+        <item>glowing hair</item>
+        <item>hair between eyes</item>
+        <item>hair behind ear</item>
+        <item>single side bun</item>
+        <item>curly hair</item>
+        <item>straight hair</item>
+        <item>bob hair</item>
+        <item>slicked-back</item>
+        <item>wavy hair</item>
+        <item>heart ahoge</item>
+        <item>drill hair</item>
+        <item>disheveled hair</item>
+        <item>chignon</item>
+        <item>braided bun</item>
+        <item>hime cut</item>
+        <item>shiny hair</item>
+        <item>dreadlocks</item>
+    </array>
+
+
+    <!--
+    太阳帽 Boater hat
+遮阳帽 Visor cap
+圆顶礼帽 Bowler hat
+报童帽 Cabbie hat渔夫帽 Bucket hat
+棒球帽 Baseball cap针织唱 Beanie拿破仑唱 Bicorne厨师唱 Chef hat侦探帽 Fedora牛仔帽 Cowboy hat棒球头盔 Baseball helmet橄榄球头盔 Football helmet
+军官帽 Military hat
+圣诞帽 Santa hat派对帽 Party hat小丑帽 Jester cap安全帽 Hardhat
+动物头盔 animal helmet女巫帽 witch hat
+贝雷帽 beret
+鸭舌帽 peaked cap
+草帽 Straw hat
+    -->
+    <!--饰品、帽子-->
+    <array name="shi_pin_on_hair">
+        <item>Straw hat</item>
+        <item>peaked cap</item>
+        <item>Hardhat</item>
+        <item>Cowboy hat</item>
+        <item>Santa hat</item>
+        <item>Beanie</item>
+        <item>Baseball cap</item>
+        <item>Bowler hat</item>
+        <item>hair ribbon</item>
+        <item>feather hair omament</item>
+        <item>hair flower</item>
+        <item>Visor cap</item>
+        <item>Boater hat</item>
+        <item>lace trim</item>
+        <item>bridal veil</item>
+        <item>pauldrons</item>
+        <item>spaghetti strap</item>
+        <item>heart hair omament</item>
+        <item>lolita hairband</item>
+        <item>hair bow</item>
+        <item>hair scrunchie</item>
+        <item>crescent hair ornament</item>
+        <item>hair scrunchie</item>
+        <item>hairclip</item>
+        <item>bracelet</item>
+        <item>choker</item>
+        <item>metal collar</item>
+        <item>ribbon trim</item>
+        <item>pearl braceletEE drop earrings</item>
+    </array>
+
+
+    <!--上衣-->
+    <!--
+    透视装 transparent clothes女装 Victoria black maid dress
+礼服 lucency full dress军装 military uniform
+汉服 hanfu
+旗袍 cheongsam
+水手服 sailor suit学生服 school uniform
+和服japanses clothes
+运动服 sportswear
+长袍 robe
+银色连衣裙 silvercleavage dress无袖连衣裙 sleeveless dress雨衣 raincoat
+围裙apron
+快餐制服 fast food uniform
+机甲衣 mech suit巫师法泡 wizard robe
+JK制服JK健身服 gym_uniform
+刺客装束 assassin-style
+职场制服 bussiness suit
+西装 suit
+工装服 dungarees
+巫女服 miko attire
+婚纱 wedding dress
+过手袖 sleeves_past fingers背心 tank top白衬衫 white shirt水手衬衫 sailor shirt毛领 fur trimmed colla兜帽斗篷 hooded cloak
+    夹克 jacket皮夹克 leather jacket高领夹壳 turtleneck jacket消防员夹克 firefighter jacket透明夹壳 see-through jacket防弹盔甲 body armor防弹衣 flak jacket大衣 overcoat粗呢大衣 duffel coat
+服装
+Tm T-shirt毛衣 sweater
+连帽衫 hoodie
+夏日长裙 summer dress
+探险家夹克 safari jacket
+兜帽 hood牛仔夹克 denim jacket
+战壕大衣 trench coat实验室外套lab coat羽绒服 Down Jackets
+    -->
+    <array name="shang_zhuang">
+        <item>Victoria black maid dress</item>
+        <item>military uniform</item>
+        <item>lucency full dress</item>
+        <item>hanfu</item>
+        <item>cheongsam</item>
+        <item>school uniform</item>
+        <item>sailor suit</item>
+        <item>sportswear</item>
+        <item>robe</item>
+        <item>raincoat</item>
+        <item>sleeveless dress</item>
+        <item>silvercleavage dress</item>
+        <item>apron</item>
+        <item>fast food uniform</item>
+        <item>wizard robe</item>
+        <item>gym_uniform</item>
+        <item>assassin-style</item>
+        <item>bussiness suit</item>
+        <item>suit</item>
+        <item>dungarees</item>
+        <item>miko attire</item>
+        <item>wedding dress</item>
+        <item>Down Jackets</item>
+        <item>lab coat</item>
+        <item>trench coat</item>
+        <item>denim jacket</item>
+        <item>summer dress</item>
+        <item>hoodie</item>
+        <item>sweater</item>
+        <item>T-shirt</item>
+        <item>overcoat</item>
+        <item>duffel coat</item>
+        <item>firefighter jacket</item>
+        <item>turtleneck jacket</item>
+        <item>leather jacket</item>
+        <item>sleeves_past fingers</item>
+        <item>tank top</item>
+        <item>white shirt</item>
+        <item>sailor shirt</item>
+        <item>fur trimmed colla</item>
+        <item>hooded cloak</item>
+        <item>jacket</item>
+    </array>
+
+
+    <!--
+牛仔短裤 denim shorts热裤 short shorts铅笔裙 pencil skirt黑色紧身裤 blackleggings百褶裙 pleated skirt皮裙 leather skirt
+和服下的裙子 skirt under kimono
+福边 frills花边 lace哥特风格 gothic洛丽塔风格 lolita fashion西部风格 westemn湿身 wet clothes横条花纹 striped披甲 armored skirt盔甲 armor金厘盔甲 metal armor狂战上铠甲 berserker armor
+露单肩 off shoulder腰带 belt围巾 scarf披肩 cape皮草披肩 fur shawl
+露双肩 bare shoulders
+格子花纹 tat
+    -->
+    <!--身体装饰-->
+    <array name="lu_chu">
+        <item>off shoulder</item>
+        <item>scarf</item>
+        <item>bare shoulders</item>
+        <item>fur shawl</item>
+        <item>belt</item>
+        <item>satchel</item>
+        <item>Backpack</item>
+        <item>cape</item>
+        <item>tattered</item>
+        <item>medium breast</item>
+        <item>midriff-baring</item>
+    </array>
+
+    <!--下装-->
+    <array name="xia_zhuang">
+        <item>westemn skirt</item>
+        <item>lolita fashion skirt</item>
+        <item>gothic skirt</item>
+        <item>denim shorts</item>
+        <item>short shorts</item>
+        <item>pencil skirt</item>
+        <item>blackleggings</item>
+        <item>short skirt</item>
+        <item>miniskirt</item>
+        <item>pleated skirt</item>
+        <item>leather skirt</item>
+        <item>skirt under kimono</item>
+    </array>
+
+
+    <!--足部鞋子-->
+    <!--
+    裸足 bare_legs靴子 boots马]靴 knee boots脚踝 ankle boots系带靴 cross-laced footwear防水橡胶靴 rubber boots皮靴
+    leather boots雪地靴 snow boots圣诞靴 santa boots鞋子 shoes芭舞鞋 ballet slippers运动鞋 sneakers早冰鞋 roller skates溜冰鞋
+     ice skates钉鞋 spiked shoes拖鞋 slippers女式学生鞋 uwabaki凉鞋 sandals木屐 geta人字拖 fip-flops袜类
+高跟鞋 high heels玛丽珍鞋 maryjanes乐福鞋 loafers
+    -->
+    <array name="foot_shoe">
+        <item>bare_legs</item>
+        <item>boots</item>
+        <item>knee boots</item>
+        <item>ankle boots</item>
+        <item>cross-laced footwear</item>
+        <item>rubber boots</item>
+        <item>leather boots</item>
+        <item>snow boots</item>
+        <item>santa boots</item>
+        <item>ballet slippers</item>
+        <item>sneakers</item>
+        <item>roller skates</item>
+        <item>ice skates</item>
+        <item>spiked shoes</item>
+        <item>slippers</item>
+        <item>uwabaki</item>
+        <item>geta</item>
+        <item>high heels</item>
+        <item>maryjanes</item>
+    </array>
+
+
+
+    <!--腿部袜子-->
+    <!--
+    腿部，袜子
+    不穿袜子 no socks短袜 socks日式厚底短袜 tabi圣诞袜 christmas stocking暖腿袜 leg warmers荷叶边袜子 filled socks丝带边袜子
+     ribbon-trimmed legwear闪亮袜子 shiny legwear褶边长筒袜 frilled thighhighs过膝袜 thighhighs渔网袜 fishnet stockings堆堆袜
+      loose socks苗丝裤袜 lace legwear罗纹裤袜 ribbed legwear湿连裤袜 wet pantyhose格子裤袜 plaid legwear透视裤袜
+       see-through legwear连裤袜 pantyhose撕裂的连裤袜 tom pantyhose单腿连裤袜 single leg pantyhose荷叶边连裤袜
+        frilled pantyhose柳J吊袜带 studded garter belt吊袜带 sock dangle大腿系带 thigh strap腿部花边环
+         leg_garter包扎腿 bandaged leg 丝袜 stockings 裤袜 leggings
+    -->
+    <array name="leg_socks">
+        <item>frilled thighhighs</item>
+        <item>lace legwear</item>
+        <item>leg_garter</item>
+        <item>stockings</item>
+        <item>leggings</item>
+        <item>pantyhose</item>
+        <item>bandaged leg</item>
+        <item>thigh strap</item>
+        <item>sock dangle</item>
+        <item>studded garter belt</item>
+        <item>frilled pantyhose</item>
+        <item>single leg pantyhose</item>
+        <item>see-through legwear</item>
+        <item>plaid legwear</item>
+        <item>wet pantyhose</item>
+        <item>ribbed legwear</item>
+        <item>loose socks</item>
+        <item>fishnet stockings</item>
+        <item>thighhighs</item>
+        <item>shiny legwear</item>
+        <item>ribbon-trimmed legwear</item>
+        <item>filled socks</item>
+        <item>socks</item>
+        <item>leg warmers</item>
+        <item>christmas stocking</item>
+        <item>tabi</item>
+    </array>
+
+    <!--姿势动作-->
+    <!--
+    姿势
+    侧身坐 yokozuwari鸭子坐 ahirusuwari盘眼 indian style蜷起身子侧躺 fetal position仰卧 on backhE on stomach绑在十字架上
+     crucifixion双腿缠绕 leg lock四胶着地 all fours前倾 leaning forward
+跪着 kneeling
+躬 arched back
+膝枕 lap pillow
+学猫叫 paw pose
+单膝跪地 one knee
+站着 standing回头 turning around歪头 head tilt
+屈膝抱腿坐 hugging own legs
+坐着 sitting
+立式跨骑 upright straddle
+戴日机 hand on headphones
+鬼姿势 ghost pose
+蹲着 squatting
+
+嗅闻 smelling公主抱 princess carry拥抱 hug背对背 back-to-back耶 peace symbol调整过膝袜
+adjusting thighhigh抓住 grabbing战斗姿态 fighting_stance走 walking跨坐 straddling跳
+jump飞fly靠墙 against wall躺 lie从背后抱 hug from behind遛狗 walk a dog提裙 skirt lift跑
+ running泡温泉 half body under water骑马 horse riding字马 standing split祈祷 pray吴想
+ doing a meditation
+
+上半身
+托腰 gill support牵手 holding hands单手叉腰 hand on_hip双手叉腰 hands_on_hips招手
+ waving撮头发 hair scrunchie拉头发 hair_pull伸懒腰 stretch抓别人的头发 grabbing another's hair
+ 弯腰 bent over亲吻额头 kissing forehead踮起脚尖吻 tiptoe kiss竖中指 middle_finger亲吻脸颊 kissing cheek
+ 头顶水果 fruit on head咬手套 glove biting脸贴脸 cheek-to-cheek手手 hand on another's hand双手交叉 crossed arms
+ 双手张开伸直 spread arms挥动手臂 waving arms伸出手 outstretched arm全着 holding拿着餐刀 holding knife拿着枪
+  holding gun用手臂支撑 carrying搂着手臂 arm hug拿着杯子 holding cup拿着魔杖 holding wand拿着食物
+   holding food拿着书 holding book打着伞 holding umbrella捧着花 holding flower拿着麦克风
+    holding microphone抱着物品 object hug抱着心 holding heart
+    -->
+    <array name="zhi_shi">
+        <item>standing split</item>
+        <item>tiptoe kiss</item>
+        <item>waving</item>
+        <item>stretch</item>
+        <item>lie</item>
+        <item>holding knife</item>
+        <item>hands_on_hips</item>
+        <item>hand on_hip</item>
+        <item>doing a meditation</item>
+        <item>pray</item>
+        <item>horse riding</item>
+        <item>against wall</item>
+        <item>fly</item>
+        <item>jump</item>
+        <item>straddling</item>
+        <item>walking</item>
+        <item>fighting_stance</item>
+        <item>smelling</item>
+        <item>yokozuwari</item>
+        <item>head tilt</item>
+        <item>sitting</item>
+        <item>squatting</item>
+        <item>turning around</item>
+        <item>one knee</item>
+        <item>standing</item>
+        <item>ahirusuwari</item>
+        <item>paw pose</item>
+        <item>hugging own legs</item>
+        <item>kneeling</item>
+        <item>on backhE on stomach</item>
+        <item>fetal position</item>
+        <item>leaning forward</item>
+    </array>
+
+
+
+    <!--眼神看向-->
+    <!--
+    远眺 looking afar照镜子 looking at mirror看手机 looking at phone看向别处 looking away透过刘海看
+visible through hair透过眼镜看 looking over glasses向上看looking up面向观者 look at viewer靠近观者
+ close to viewer动态角度 dynamic angle舞台角度 dramatic angle凝视 stare向下看looking down移开目光
+  looking away
+    -->
+    <array name="look_type">
+        <item>look at viewer</item>
+        <item>close to viewer</item>
+        <item>dynamic angle</item>
+        <item>dramatic angle</item>
+        <item>stare</item>
+        <item>looking down</item>
+        <item>looking away</item>
+        <item>looking afar</item>
+        <item>looking at mirror</item>
+        <item>looking at phone</item>
+    </array>
+
+    <!--季节日月星辰-->
+    <!--季节
+    春天 in spring夏天in summer秋天 in autumn黄昏 dusk夜晚 night秋景 (autumn maple forest:1.3)...冬天in winter
+    太阳 sun月亮 moon雪花 snowflakes
+    落日 sunset满月 full moon星星 stars天空 sky多云 cloudy雨天 rain冰雪 snow;ice闪电 lighting太阳 sun月亮 moon雪花 snowflakes
+流星雨 meteor shower彩虹 rainbow宇宙 universe
+    -->
+    <array name="ji_jie">
+        <item>in spring</item>
+        <item>in summer</item>
+        <item>in autumn</item>
+        <item>in winter</item>
+        <item>sun</item>
+        <item>lighting</item>
+        <item>lighting</item>
+        <item>rain</item>
+        <item>snow</item>
+        <item>sky</item>
+        <item>cloudy</item>
+        <item>stars</item>
+        <item>snowflakes</item>
+        <item>full moon</item>
+        <item>sunset</item>
+        <item>moon</item>
+        <item>dusk</item>
+        <item>night</item>
+        <item>(autumn maple forest:1.3),(very few fallen leaves),(path)</item>
+    </array>
+
+
+
+    <!--户外场景、背景-->
+    <!--户外的地点
+    大海 sea海滩 on the beach水中 underwater峡堆搓 c老惩挨瓷yon绿洲 oasis竹林
+     bamboo forest/ll glacier浮岛 floating island火山 volcano稻田 rice paddy麦田
+      wheat field花田 flower field花海 flower sea
+树林 grove沙漠 on a desert
+大草原 savanna
+瀑布 waterfall
+高原 plateau
+溪流 stream
+悬崖 diff
+荒地 wasteland
+山丘 hills草地 in a meadow
+
+城堡 castle城市 city水上乐园 waterpark旋转木马 carousel摩天轮 ferris wheel水族馆 aquarium保龄球馆
+bowling alley美术馆 art gallery动物园 zoo博物馆 museum天文馆 planetarium游泳池 swimming pool体育场
+ stadium寺庙 temple巴士车站 bus stop火车站 train station喷泉 fountain游乐场 playground电话亭
+  phone booth铁轨 railroad tracks机场 airport隧道 tunnel
+    -->
+    <array name="place_out_door">
+        <item>ferris wheel</item>
+        <item>aquarium</item>
+        <item>tunnel</item>
+        <item>airport</item>
+        <item>railroad tracks</item>
+        <item>phone booth</item>
+        <item>playground</item>
+        <item>fountain</item>
+        <item>train station</item>
+        <item>bus stop</item>
+        <item>temple</item>
+        <item>stadium</item>
+        <item>swimming pool</item>
+        <item>planetarium</item>
+        <item>museum</item>
+        <item>zoo</item>
+        <item>art gallery</item>
+        <item>bowling alley</item>
+        <item>castle</item>
+        <item>carousel</item>
+        <item>water park</item>
+        <item>city</item>
+        <item>sea</item>
+        <item>in a meadow</item>
+        <item>hills</item>
+        <item>diff</item>
+        <item>wasteland</item>
+        <item>diff</item>
+        <item>stream</item>
+        <item>plateau</item>
+        <item>waterfall</item>
+        <item>savanna</item>
+        <item>on a desert</item>
+        <item>grove</item>
+        <item>flower sea</item>
+        <item>flower field</item>
+        <item>wheat field</item>
+        <item>rice paddy</item>
+        <item>volcano</item>
+        <item>floating island</item>
+        <item>bamboo forest</item>
+        <item>ll glacier</item>
+        <item>oasis</item>
+        <item>underwater</item>
+        <item>on the beach</item>
+    </array>
+
+
+    <!--室内场景-->
+    <!--室内 indoor
+窗帘 curtain
+床 bed浴室 bathroom宅男房间 otaku room自助餐厅 cafeteria教室 classroom俱乐部 clubroom则所隔间
+ toilet stall书店 bookstore药店 pharmacy便利店 convenience store超市 supermarket剧院 theater健身房
+  gym医务室 infirmary实验室 laboratory图书馆 library工作坊 workshop舞台 stage
+沙龙 salon
+咖啡馆 cafe
+面包店 bakery
+酒吧 bar
+居酒屋 izakaya
+温室 greenhouse地库 dungeon电影院 movie theater法庭 courtroom
+-->
+    <array name="place_in_door">
+        <item>otaku room</item>
+        <item>laboratory</item>
+        <item>movie theater</item>
+        <item>courtroom</item>
+        <item>dungeon</item>
+        <item>infirmary</item>
+        <item>workshop</item>
+        <item>bakery</item>
+        <item>bar</item>
+        <item>greenhouse</item>
+        <item>izakaya</item>
+        <item>cafe</item>
+        <item>stage</item>
+        <item>salon</item>
+        <item>library</item>
+        <item>gym</item>
+        <item>theater</item>
+        <item>supermarket</item>
+        <item>toilet stall</item>
+        <item>convenience store</item>
+        <item>pharmacy</item>
+        <item>bookstore</item>
+        <item>cafeteria</item>
+        <item>clubroom</item>
+        <item>indoor</item>
+        <item>classroom</item>
+        <item>curtain</item>
+        <item>bed</item>
+        <item>bathroom</item>
+    </array>
+
+
+
+    <!--节日气氛-->
+    <!--
+    新年 new year情人节 valentine七夕节 tanabata兔手 year of the rabbit元宵节
+     lantern festival夏日祭 summer festival中秋节 mid-autumn festival万圣节
+      halloween圣诞节 christmas爆炸 explosion蒸汽 water vapor焰火 fireworks彩色玻璃
+       colourful glass染色玻璃 stain glass落地裔 ceiling window涂鸦 Grafiti wall马赛克背景
+        mosaic background液体背景 liquid background, Sputte..魔法环 magic circles荧光蘑菇森林
+         fluorescent mushroom fore..彩色泡泡 ((colorful bubble))
+    -->
+    <array name="background_type_jie_ri">
+        <item>new year</item>
+        <item>valentine</item>
+        <item>colourful glass</item>
+        <item>fireworks</item>
+        <item>christmas</item>
+        <item>halloween</item>
+        <item>mid-autumn festival</item>
+        <item>summer festival</item>
+        <item>lantern festival</item>
+        <item>year of the rabbit</item>
+        <item>tanabata</item>
+    </array>
+
+
+
+    <!--光照类型-->
+    <!--
+     轮廓光 rim light
+体积光 Volumetric Lighting
+黄灯 glowing neon lights
+氛围光照 moody lighting
+] 达尔效应 Tyndall effect
+漏光光效 light leaks
+电影级光照 Cinematic Lighting
+透镜光晕 lens flare
+背景光 background light
+自然光 available light
+金属光泽 metallic luster
+    -->
+    <array name="light_type">
+        <item>rim light</item>
+        <item>metallic luster</item>
+        <item>available light</item>
+        <item>background light</item>
+        <item>lens flare</item>
+        <item>Cinematic Lighting</item>
+        <item>Tyndall effect</item>
+        <item>light leaks</item>
+        <item>moody lighting</item>
+        <item>Volumetric Lighting</item>
+    </array>
+
+
+    <!--拍摄角度-->
+    <array name="shot_angle">
+        <item>cowboy shot</item> <!--七分身-->
+        <item>Depth of field</item>
+        <item>partially underwater shot</item><!--部分水下-->
+        <item>Panorama</item>
+        <item>POV</item>
+        <item>macro lens</item>
+        <item>telephoto lens</item>
+        <item>full body</item>
+        <item>upper body</item>
+        <item>upper body</item>
+        <item>medium shot</item>
+        <item>close up portrait</item>
+        <item>profile picture</item>
+    </array>
+
+    <!--负面描述、必选-->
+    <array name="quality_F">
+        <item>paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)),anime,cartoon,(((ugly))),(((duplicate))),((morbid)),((mutilated)),(((tranny))),(((trans))),(((trannsexual))),(((mutation))),(((deformed))),(((long neck))),((bad anatomy)),(((bad proportions))),(((extra arms))),(((extra legs))), (((disfigured))),(((more than 2 nipples))),malformed,mutated,(hermaphrodite),
+            ((extra limbs)),((missing arms)),((missing legs)),((poorly drawn hands)),((poorty drawn face)),(mutation,poorly drawn :1.2),
+            (long body :1.3),multiple breasts,cloned face,gross proportions, mutated hands,bad hands,bad feet,long neck,missing limb,(malformed limbs),malformed hands,
+            (fused fingers),(too many fingers),extra fingers,missing fingers,extra digit,fewer digits,(mutated hands and fingers :1.5),
+            lowres,text,error,cropped,worst quality,low quality,normal quality,jpeg artifacts,signature,watermark,username,blurry,text font ui,futa,yaoi,</item>
+    </array>
+</resources>

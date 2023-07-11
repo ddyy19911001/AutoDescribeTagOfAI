@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SplanshThem" parent="BaseAppTheme">
+        <!--        <item name="android:windowAnimationStyle">@style/ActivitySwitchAnimation</item>-->
+        <item name="android:windowBackground">@drawable/bg_splansh</item>
+    </style>
+</resources>

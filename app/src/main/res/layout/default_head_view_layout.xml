@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <include layout="@layout/default_status_bar"/>
+        <com.lzy.widget.HeaderViewPager
+            android:id="@+id/scrollableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:hvp_topOffset="-1dp">
+            <!--头部布局-->
+            <FrameLayout
+                android:id="@+id/fm_head_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include
+                    android:id="@+id/root_head"
+                    layout="@layout/vp_head_top" />
+            </FrameLayout>
+            <!--中间布局-->
+            <FrameLayout
+                android:id="@+id/fm_middle_tab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include
+                    android:id="@+id/root_body"
+                    layout="@layout/vp_middle_body" />
+            </FrameLayout>
+            <!--尾巴-->
+            <androidx.viewpager.widget.ViewPager
+                android:layout_weight="1"
+                android:id="@+id/vp_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white" />
+        </com.lzy.widget.HeaderViewPager>
+    </LinearLayout>
+</layout>
